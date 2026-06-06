@@ -1,4 +1,4 @@
-# LisbonStartup_MonadMarketEcosytem
+# Lisbon Startup Monad MarketE cosytem
 
 # 🚀 StartupMarket — Hackathon DApp
 
