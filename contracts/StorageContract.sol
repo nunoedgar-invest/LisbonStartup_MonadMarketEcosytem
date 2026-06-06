@@ -1,3 +1,13 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract StorageContract {
+    struct StorageItem {
+        uint256 id;
+        string key;
+        string value;
+    }
+
     StorageItem[] private storageItems;
     address public owner;
 
@@ -13,5 +23,7 @@
         return storageItems[_id].value;
     }
 }
+
+
 
 
